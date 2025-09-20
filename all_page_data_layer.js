@@ -67,6 +67,7 @@
   var capi_cat = window._dl_items.map(function(it){ return it.item_category;  }).join(", ")
   var capi_id = window._dl_items.map(function(it){ return Number(it.item_id); }).join(", ");
   var capi_sku = window._dl_items.map(function(it){ return Number(it.sku); }).join(", ");
+  var capi_quantity = window._dl_items.map(function(it){ return Number(it.quantity); }).join(", ");
   var capi_stocklevel = window._dl_items.map(function(it){ return it.stocklevel;  }).join(", ");
   var capi_stockstatus = window._dl_items.map(function(it){ return it.stocklevel;  }).join(", ");
   var capi_google_business_vertical = window._dl_items.map(function(it){ return it.google_business_vertical;  }).join(", ");
