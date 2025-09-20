@@ -26,3 +26,6 @@ To make sure the `all_page_data_layer.js` file works correctly on **all pages** 
 <head>
   <script src="/js/all_page_data_layer.js"></script>
 </head>
+
+```javascript
+window.dataLayer = window.dataLayer || [];
