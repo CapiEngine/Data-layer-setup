@@ -24,7 +24,7 @@ To make sure the `all_page_data_layer.js` file works correctly on **all pages** 
 
 ## Step 2: Setup in <head> (Direct Include) `all_page_data_layer.js`
 <head>
-```javascript
+```html
 <script src="/js/all_page_data_layer.js"></script>
 </head>
 
