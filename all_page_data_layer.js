@@ -4,7 +4,7 @@
   window.dataLayer = window.dataLayer || [];
 
   // Allowlist event নাম
-  var allowedEvents = ["begin_checkout", "view_cart", "view_item"];
+  var allowedEvents = ["begin_checkout", "add_to_cart", "view_cart", "view_item"];
 
   function updateVars(dlObject) {
     if (!dlObject || !dlObject.event) return;
