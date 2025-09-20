@@ -65,6 +65,7 @@
 
   var capi_cat1 = window._dl_items.map(function(it){ return it.item_category; })
   var capi_cat = window._dl_items.map(function(it){ return it.item_category;  }).join(", ")
+  var capi_item_name = window._dl_items.map(function(it){ return it.item_name;  }).join(", ");
   var capi_id = window._dl_items.map(function(it){ return Number(it.item_id); }).join(", ");
   var capi_sku = window._dl_items.map(function(it){ return Number(it.sku); }).join(", ");
   var capi_quantity = window._dl_items.map(function(it){ return Number(it.quantity); }).join(", ");
