@@ -12,3 +12,13 @@
 | `google_business_vertical`   | `capi_google_business_vertical` | Returns Google Business Vertical(s)   |
 | `value`                      | `capi_value`                    | Returns total value                   |
 | `currency`                   | `capi_currency`                 | Returns currency (e.g. `USD`, `BDT`)  |
+
+
+## Requirements for `all_page_data_layer.js`
+
+To make sure the `all_page_data_layer.js` file works correctly on **all pages** and the **dataLayer is always enabled**, follow these requirements:
+
+1. **Always define dataLayer globally**  
+   At the very beginning of `all_page_data_layer.js`, add:
+   ```javascript
+   window.dataLayer = window.dataLayer || [];
