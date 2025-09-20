@@ -7,6 +7,7 @@
 | `item_category`              | `capi_cat1` / `capi_cat`        | Use `capi_cat` if you need comma-separated list |
 | `item_id`                    | `capi_id`                       | Returns numeric IDs, comma-separated  |
 | `sku`                        | `capi_sku`                      | Returns numeric SKUs, comma-separated |
+| `quantity`                   | `capi_quantity`                 | Returns numeric quantity, comma-separated |
 | `stocklevel`                 | `capi_stocklevel`               | Returns stock level values            |
 | `stockstatus` (same source)  | `capi_stockstatus`              | Returns stock status values           |
 | `google_business_vertical`   | `capi_google_business_vertical` | Returns Google Business Vertical(s)   |
