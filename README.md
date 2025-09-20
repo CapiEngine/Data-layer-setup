@@ -19,6 +19,5 @@
 To make sure the `all_page_data_layer.js` file works correctly on **all pages** and the **dataLayer is always enabled**, follow these requirements:
 
 1. **Always define dataLayer globally**  
-   At the very beginning of `all_page_data_layer.js`, add:
-   ```javascript
-   window.dataLayer = window.dataLayer || [];
+   At the very beginning of `all_page_data_layer.js`
+
