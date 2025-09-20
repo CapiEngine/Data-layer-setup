@@ -33,7 +33,7 @@
     // --- Update variables ---
     if (calcValue) window._dl_value = calcValue;
     if (ecommerce.currency) window._dl_currency = ecommerce.currency;
-    if (ecommerce.transaction_id) window.capi_transaction_id = ecommerce.transaction_id;
+    if (ecommerce.transaction_id) window._capi_transaction_id = ecommerce.transaction_id;
     if (ecommerce.items && ecommerce.items.length > 0) {
       window._dl_items = ecommerce.items;
     }
@@ -76,7 +76,7 @@
   var capi_value = window._dl_value ;
   var capi_transaction_id = window._dl_value ;
   var capi_currency = window._dl_currency ;
-  var capi_order_id = window.capi_transaction_id ;
+  var capi_order_id = window._capi_transaction_id ;
   
   
 
